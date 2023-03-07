@@ -135,8 +135,6 @@ public class InicioSesion extends javax.swing.JFrame {
         MetodoUsuarios validar = new MetodoUsuarios();
 
         if (validar.validarUsuario(usuario, contra) || ("esteban".equals(usuario) && "123".equals(contra))) {
-
-            JOptionPane.showMessageDialog(null, "Agregado Exitosamente");
             frm_Principal principal = new frm_Principal();
             principal.setVisible(true);
             principal.setLocationRelativeTo(null);
@@ -145,7 +143,7 @@ public class InicioSesion extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Contraseña o Usuario incorrectos");
 
         }
-
+        this.setVisible(false);
 
     }//GEN-LAST:event_btn_IngresarActionPerformed
 
