@@ -4,6 +4,7 @@
  */
 package Presentacion;
 
+import Catalogo_de_Eventos.ListaSC_Eventos;
 import Datos_Login.NodoUsuario;
 import Gestion.MetodoUsuarios;
 import javax.swing.JOptionPane;
@@ -13,12 +14,17 @@ import javax.swing.JOptionPane;
  * @author esteb
  */
 public class InicioSesion extends javax.swing.JFrame {
-
+    private ListaSC_Eventos l;
     /**
      * Creates new form InicioSesion
      */
     public InicioSesion() {
         initComponents();
+        
+    }
+
+    public InicioSesion(ListaSC_Eventos l) {
+        this.l = l;
     }
 
     /**

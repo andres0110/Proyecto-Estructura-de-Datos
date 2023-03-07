@@ -23,32 +23,30 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace max="32767" attributes="0"/>
-              <Component id="bttAgregarEvent" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-          </Group>
           <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="lblLugarEvent" min="-2" max="-2" attributes="0"/>
                   <Component id="txfnombreEvent" min="-2" pref="137" max="-2" attributes="0"/>
                   <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="lblnombreEvent" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="txfLugarEvent" alignment="0" min="-2" pref="137" max="-2" attributes="0"/>
-                          <Component id="lblDireccionEvent" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="txfDireccionEvent" alignment="0" min="-2" pref="137" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="txfCiudadEvent" min="-2" pref="137" max="-2" attributes="0"/>
-                          <Component id="txfFechaEvent" min="-2" pref="137" max="-2" attributes="0"/>
-                          <Component id="lblFechaEvent" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblCiudadEvent" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblEstadoEvent" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="txfEstadoEvent" alignment="0" min="-2" pref="137" max="-2" attributes="0"/>
+                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                      <Component id="bttAgregarEvent" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblnombreEvent" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="txfLugarEvent" alignment="0" min="-2" pref="137" max="-2" attributes="0"/>
+                              <Component id="lblDireccionEvent" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="txfDireccionEvent" alignment="0" min="-2" pref="137" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="txfCiudadEvent" min="-2" pref="137" max="-2" attributes="0"/>
+                              <Component id="txfFechaEvent" min="-2" pref="137" max="-2" attributes="0"/>
+                              <Component id="lblFechaEvent" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblCiudadEvent" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblEstadoEvent" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="txfEstadoEvent" alignment="0" min="-2" pref="137" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                   </Group>
               </Group>
@@ -91,9 +89,9 @@
                   <Component id="txfEstadoEvent" min="-2" max="-2" attributes="0"/>
                   <Component id="txfDireccionEvent" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="49" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
               <Component id="bttAgregarEvent" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace pref="29" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
